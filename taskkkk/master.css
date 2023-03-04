@@ -1,0 +1,337 @@
+.line1{
+    display: inline-block;
+    margin-right:35px ;
+    text-decoration:none;
+    position:static;
+    word-spacing: 10px;
+    
+}
+
+.list1{ text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.home{
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+    display: inline;
+    margin: 6px;
+
+}
+
+
+#logo{
+    color:rgb(255, 255, 255);
+    display:inline-block;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 15px 0;
+    margin-right: 50%;
+    margin-left: 13px;
+    text-decoration: none;
+
+}
+
+
+.hello{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 20px;
+    font-family: "Roboto",sans-serif;
+    padding: 99px;
+    margin-left: 20%;
+}
+
+
+#Restaurant{
+    
+    color: rgb(255, 251, 43);
+    font-size:55px;
+    font-weight:bolder;
+    margin-bottom:-2px;
+    margin-top: -2px;
+}
+
+
+@keyframes move{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+
+#move{
+    font-size: 25px;
+    text-transform: capitalize;
+    animation: move 3s infinite;
+    color:rgb(255, 255, 255);
+}
+
+#hello{ 
+    color:rgb(255, 255, 255);
+}
+#button{
+    margin-left: 40%;
+}
+.button{
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 15px;
+    margin: 3px;
+}
+button:hover{
+    background-color: #999999;
+    color: rgb(255, 255, 255);
+    font-size:17px;
+}
+.pdge1{
+    background-image: url(https://img.freepik.com/premium-photo/food-background-menu-with-spices-culinary-ingredients-dark-stone-background-cooking-concepts-culinary-background-top-view-free-space-your-text_234595-2347.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+}
+#about-area{
+    margin-top: 10%;
+    
+}
+#love{
+    color: rgb(236, 156, 58);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    margin-top:1%;
+
+}
+.content{
+    line-height: 1.38em;
+    font-weight: 400;
+    margin-left: 51%;
+    margin-top: -44%;
+
+}
+#img{
+    margin-left: 13%;
+    width: 370px;
+    height: 590px;
+}
+
+#Pragraph{
+    width: 580px;
+    line-height: 2;
+    font-size: 18px;
+    word-spacing: 3px;
+    margin-left: 51%;
+    margin-top: 2%;
+    margin-right: 10px;
+    color: rgb(133, 132, 132);
+}
+.span1{
+    color: rgb(133, 132, 132);
+}
+.icon{
+    width: 51px;
+    height:51px;
+    margin-left: 51%;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+span{ 
+    font-size: 18px;
+}
+
+#pdge3{
+    margin-top: 10%;
+    background-color:rgb(250, 249, 249);
+    padding: 15px;
+}
+
+.par{
+    width: 580px;
+    line-height: 2;
+    font-size: 18px;
+    word-spacing: 3px;
+    padding-bottom: 10px;
+    color: rgb(133, 132, 132);
+}
+
+.li{
+    list-style: url(icon.jpg);
+    color: rgb(133, 132, 132);
+}
+
+.icon-list{
+    width: 580px;
+    line-height: 2;
+    font-size: 18px;
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+
+.photo{
+    margin-top: -60%;
+    margin-left: 95%;
+    
+}
+
+#img2{
+    height: 500px;
+    width:99%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+#flag-dishes{
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+#Meals{
+    text-align: center;
+    color: rgb(236, 156, 58);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pdg3{
+    margin-left: 10px;
+}
+#Reviewers{
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.single_image-img{
+    padding: 35px;
+}
+
+div{
+    display:inline-block;
+}
+.pp{
+    width: 350px;
+    text-align: center;
+    margin-left: 20px;
+    line-height: 2;
+    font-size: 18px;
+    word-spacing: 3px;
+    color: rgb(133, 132, 132);
+}
+.single_image-img{
+    vertical-align: middle;
+}
+.menu{
+    font-size: 25px;
+    margin-top: -6px;
+    margin-left: 30px;
+}
+.Full-Menu{
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 15px;
+    margin: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 172, 132);
+    margin-left: 43%;
+    margin-top: 3%;
+    margin-bottom: 6%;
+
+}
+#img3{
+    width: 100%;
+}
+#position{
+    font-size: 40px;
+    padding-left: 50px;
+}
+#text{
+    width: 600px;
+    line-height: 2;
+    font-size: 18px;
+    word-spacing: 3px;
+    color: rgb(133, 132, 132);
+    padding-left: 50px;
+}
+#li2{
+    list-style: url(1.jpg);
+    color: rgb(133, 132, 132);
+    padding-bottom: 20px;
+
+}
+#li3{
+    list-style: url(2.jpg);
+    color: rgb(133, 132, 132);
+    padding-bottom: 20px;
+
+}
+#li4{
+    list-style: url(3.jpg);
+    color: rgb(133, 132, 132);
+    padding-bottom: 20px;
+
+}
+
+#li5{
+    list-style: url(4.jpg);
+    color: rgb(133, 132, 132);
+    padding-bottom: 20px;
+}
+
+#contact-details{
+    padding-left: 50px;
+
+}
+#maps{
+    margin-top: -61%;
+    margin-left: 85%;
+    margin-bottom: 10%;
+}
+p{
+    color: rgb(133, 132, 132);
+    font-size: 20px;
+}
+#pdg5{
+    background-color:rgb(56, 56, 56);
+}
+#about{
+    color:rgb(255, 255, 255);
+    padding-left: 15px;
+
+}
+.last{
+    width: 200px;
+    color:rgb(170, 169, 169);
+    font-size: 15px;
+    font-weight: 100;
+    word-spacing: 3px;
+    line-height: 23px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    padding-left: 15px;
+}
+
+#yy{
+    padding-left: 30px;
+    display: inline;
+}
+
+#Useful-Links{
+    display: inline;
+}
+#column{
+    display: inline;
+}
+.list2{
+    text-decoration: none;
+    color:rgb(170, 169, 169);
+}
